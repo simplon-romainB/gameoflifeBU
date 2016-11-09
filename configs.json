@@ -1,0 +1,15 @@
+{ "sauvegarde": [
+
+  { "nom": "default",
+    "casesDepart": 50,
+    "longueur"  : 50
+
+
+  }
+  ,
+  { "nom": "test",
+  "casesDepart": 30,
+  "longueur": 60
+  }
+                ]
+}

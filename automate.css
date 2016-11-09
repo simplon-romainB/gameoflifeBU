@@ -1,0 +1,32 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  border: 0;
+  padding: 0;
+}
+#ephemerial {
+  width: 100%;
+  height: 100%;
+}
+#presentation {
+  font-size: 18px;
+}
+#canvasContainer {
+  height: 100vh;
+  width: 100vh;
+  position: relative;
+  margin-left: auto ;
+  margin-right: auto ;
+
+}
+#intro {
+  position: relative ;
+  width: 100%;
+  height: 30vh ;
+  text-align: center ;
+}
+
+#options {
+  left: 0;
+  height: 100%;
+  width: 20%;
+}
