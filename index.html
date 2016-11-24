@@ -2,19 +2,27 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link href="bootstrap.css" rel="stylesheet">
     <link rel= "stylesheet" href="automate.css" type= "text/css" />
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <title></title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   </head>
   <body onload = "init()">
+    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      ...
+    </div>
+  </nav>
   <div id = "intro"><h1>Automate cellulaire</h1></div>
   <div id = "canvasContainer"><canvas id= "celullarGrid" onclick = "canvasGrid.setup()"></canvas></div>
   <div id = "options">
     <form name = "cellsNumber" method = "get">
+      <label for = "cells">cellules de départ</label>
       <input type = "text" placeholder = "cellules de départ" id = "cellsVal" name = "cells" value = "50" />
       <button type = "button" onclick = "config.reconfiguration()"></button>
-      <input type = "text" placeholder = "taille d'un coté" id = "cellsNum" name = "cells" value = "50"/>
+      <label for = "cells1">nombre de cellules d'un coté</label>
+      <input type = "text" placeholder = "taille d'un coté" id = "cellsNum" name = "cells1" value = "50"/>
       <button type = "button" onclick = "config.reconfiguration()"></button>
       <button type = "button" onclick = "config.startTimer()">start</button>
       <button type = "button" onclick = "config.stopTimer()">stop</button>
