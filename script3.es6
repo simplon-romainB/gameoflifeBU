@@ -203,3 +203,34 @@ else if ((comptageTab[comptage-1].etat) == 1) {
         }
             }
 }
+
+
+
+
+
+
+
+let moteurd10
+moteurd10 = new MoteurJetsDes(10,2);
+moteurd10.moteur();
+
+class MoteurJetsDes {
+  constructor(type, nombre) {
+    this.type = type;
+    this.nombre = nombre;
+    this.nombreResultat = [];
+    this.iteration = 0;
+
+
+  }
+  moteur() {
+    while (this.iteration < this.nombre) {
+    let resultat = Math.floor(Math.random()*this.type)
+    this.nombreResultat.push(resultat)
+    this.iteration ++;
+  }
+  console.log(this.nombreResultat);
+  return this.nombreResultat;
+    }
+
+  }
