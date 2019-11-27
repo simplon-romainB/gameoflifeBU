@@ -1,6 +1,6 @@
 <?php
   $connexion = new PDO(
-  'mysql:host=yyshfrqthpyysh.mysql.db; dbname=yyshfrqthpyysh', 'yyshfrqthpyysh', 'Magicstar198'
+  'mysql:host=yyshfrqthpyysh.mysql.db; dbname=yyshfrqthpyysh', '', ''
 );
 if (isset($_GET["loadconfig"])) {
 $donnees = $_GET["loadconfig"];
